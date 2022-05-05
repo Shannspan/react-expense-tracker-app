@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+  color: #444;
+}
+
+.container {
+  margin: 30px auto;
+  display: flex;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table tr.table-header {
+  background-color: #eee;
+}
+
+table th {
+  text-align: left;
+  padding: 15px;
+  font-size: 24px;
+}
+
+table td {
+  padding: 15px;
+  border-top: 10px solid #eee;
+}
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+}
+.modal-content {
+  width: 40%;
+  border: 1px solid grey;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: white;
+  /* text-align: center; */
+}
+.modal-content input,
+.modal-content label {
+  display: block;
+}
+.modal-content input {
+  width: 90%;
+  padding: 20px;
+  border: none;
+  background-color: #eee;
+}
+
+.modal-content .form-control {
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.action {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ccc;
+  border: none;
+  font-size: 18px;
+}
+
+button.update {
+  background-color: transparent;
+  color: #444;
+  border: none;
+  text-decoration: underline;
+}
+div.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button.close-modal {
+  float: right;
+}
+
+button.submit {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ccc;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+}
