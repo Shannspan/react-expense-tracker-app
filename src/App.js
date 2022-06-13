@@ -30,7 +30,6 @@ function App() {
       e.preventDefault();
 
       const newTransaction = {
-        id: Math.floor(Math.random() * 100000000),
         expense,
         date,
         amount: +amount,

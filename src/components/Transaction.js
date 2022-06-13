@@ -12,7 +12,7 @@ export const Transaction = ({ transaction }) => {
       <td>{transaction.notes}</td>
       <td>
         <button
-          onClick={() => deleteTransaction(transaction.id)}
+          onClick={() => deleteTransaction(transaction._id)}
           className="update"
         >
           delete

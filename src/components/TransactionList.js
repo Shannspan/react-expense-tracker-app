@@ -17,7 +17,7 @@ export const TransactionList = () => {
           <th>Update</th>
         </tr>
         {transactions.map((transaction) => (
-          <Transaction key={transaction.id} transaction={transaction} />
+          <Transaction key={transaction._id} transaction={transaction} />
         ))}
       </table>
     </>
