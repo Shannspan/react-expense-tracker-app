@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# About this Project
+
+This project is a React front end for the Expense Tracker App project that students will create in the [School of Code](https://learnto.codelikeagirl.com/) Node JS course. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
