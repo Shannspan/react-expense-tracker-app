@@ -11,7 +11,7 @@ export const GlobalContext = createContext(initialState);
 
 //set API configuration
 const axios = require('axios').default;
-axios.defaults.baseURL = 'http://localhost:3005/expense'; //if your api is hosted elsewhere update here 
+axios.defaults.baseURL = 'http://localhost:3000/expense'; //if your api is hosted elsewhere update here 
 
 // Provider component
 export const GlobalProvider = ({ children }) => {
