@@ -38,7 +38,8 @@ export const GlobalProvider = ({ children }) => {
 
   // Actions
   function deleteTransaction(id) {
-    axios.get('/delete/' + id).then(function (response) {
+    axios.delete('/delete/' + id)
+    .then(function (response) {
       // handle success
       dispatch({
         type: "DELETE_TRANSACTION",
