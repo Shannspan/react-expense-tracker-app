@@ -34,7 +34,7 @@ export const GlobalProvider = ({ children }) => {
       setLoading(false);
     });
   }
-  }, []);
+  }, [loading]); // I have added loading as dependency here as prompted by VS Code. The array was supplied empty and produced a lint error. May delete late if dependency is not required.
 
   // Actions
   function deleteTransaction(id) {
