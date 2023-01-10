@@ -83,7 +83,7 @@ function App() {
               placeholder="Enter notes..."
             />
           </div>
-          <button className="submit">Add transaction</button>
+          <button className="submit">Spend Money</button>
         </form>
       </>
     );
@@ -94,7 +94,7 @@ function App() {
       <Header />
       <div className="button-container">
         <button onClick={openModal} className="modal-button action">
-          Add Transaction
+          Spend Money
         </button>
       </div>
       <div className="container">
