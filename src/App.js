@@ -60,9 +60,10 @@ function App() {
             <label htmlFor="date">Date </label>
             <input
               type="date"
+              options={{ format: 'DD/MM/YYYY' }} // attempt to change format on FE primary page is inverting
               value={date}
               onChange={(e) => setDate(e.target.value)}
-              placeholder="Enter amount..."
+              placeholder="Enter date..."
             />
           </div>
           <div className="form-control">

@@ -42,7 +42,7 @@ export const AddTransaction = () => {
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
-            placeholder="Enter amount..."
+            placeholder="Enter date..."
           />
         </div>
         <div className="form-control">
