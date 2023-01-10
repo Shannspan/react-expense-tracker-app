@@ -7,7 +7,7 @@ export const Header = () => {
   };
   return (
     <h1>
-      {userName.firstName} {userName.lastName}'s Expense Dashboard
+      {userName.firstName} {userName.lastName}is Spending Money
     </h1>
   );
 };
