@@ -21,7 +21,7 @@ export const GlobalProvider = ({ children }) => {
   useEffect(() => {
     // Make a request for a user with a given ID
     if(loading){
-    axios.get('/list').then(function (response) {
+    axios.get('expense/list').then(function (response) {
       // handle success
       // handle capitalised attribute names from API but converting to lowercase 
       initialState.transactions = JSON.parse(JSON.stringify(response.data).toLowerCase()); 

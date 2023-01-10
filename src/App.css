@@ -5,7 +5,7 @@ body {
   justify-content: center;
   margin: 0;
   font-family: sans-serif;
-  background-color: #eee;
+  background-color:#DF8B16;
   color: #444;
 }
 
@@ -105,3 +105,23 @@ button.submit {
   margin-top: 20px;
   display: block;
 }
+
+/* colour scheme
+h1 {
+  color: #0D2130
+}
+h2 {
+  color: #DF8B16
+}
+h3 {
+  color: #4A6E82
+}
+h4 {
+  color: #EF5C57
+}
+h5 {
+  color: #C71A28
+}
+body {
+  background-color: #DF8B16;
+} */
