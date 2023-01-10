@@ -24,7 +24,7 @@ table {
 }
 
 table tr {
-  background-color: #fff;
+  background-color:  #4A6E82;
 }
 
 table tr.table-header {
@@ -76,7 +76,7 @@ button {
 button.action {
   border-radius: 20px;
   padding: 20px;
-  background-color: #DF8B16;
+  background-color: #4A6E82;
   border: none;
   font-size: 18px;
 }
