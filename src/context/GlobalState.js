@@ -38,7 +38,7 @@ export const GlobalProvider = ({ children }) => {
 
   // Actions
   function deleteTransaction(id) {
-    axios.delete('/delete/' + id)
+    axios.delete('expense/delete/' + id)
     .then(function (response) {
       // handle success
       dispatch({
@@ -53,7 +53,7 @@ export const GlobalProvider = ({ children }) => {
   }
 
   function addTransaction(transaction) {
-    axios.post('/', transaction)
+    axios.post('expense/', transaction)
     .then(function (response) {
       // handle success
       dispatch({
