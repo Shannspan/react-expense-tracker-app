@@ -11,7 +11,7 @@ export const GlobalContext = createContext(initialState);
 
 //set API configuration
 const axios = require('axios').default;
-axios.defaults.baseURL = `https://node-expense-tracker-app-v2.onrender.com/`; //if your api is hosted elsewhere update here 
+axios.defaults.baseURL = 'https://node-expense-tracker-app-v2.onrender.com/'; //if your api is hosted elsewhere update here 
 
 // Provider component
 export const GlobalProvider = ({ children }) => {
