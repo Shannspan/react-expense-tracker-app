@@ -5,7 +5,7 @@ body {
   justify-content: center;
   margin: 0;
   font-family: sans-serif;
-  background-color:#DF8B16;
+  background-image: linear-gradient(#DF8B16, #eaddcb);
   color:  #0D2130;
 }
 
@@ -123,5 +123,5 @@ h5 {
   color: #C71A28
 }
 body {
-  background-color: #DF8B16;
+  background-color: #eaddcb;
 }
