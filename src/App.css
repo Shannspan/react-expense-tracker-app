@@ -106,7 +106,7 @@ button.submit {
   display: block;
 }
 
-colour scheme
+/* colour scheme
 h1 {
   color: #0D2130
 }
@@ -125,3 +125,20 @@ h5 {
 body {
   background-color: #eaddcb;
 }
+
+/* more possible colours */
+/* h6 {
+  color: #FCE3C5
+}
+h7 {
+  color: #55828B
+}
+h8 {
+  color: #FFE099
+}
+h9 {
+  color: #B7A3B8
+}
+h10 {
+  color: #212230
+} */ 

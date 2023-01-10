@@ -61,6 +61,7 @@ function App() {
             <input
               type="date"
               options={{ format: 'DD/MM/YYYY' }} // attempt to change format on FE primary page is inverting
+              // more work needed this does not work 
               value={date}
               onChange={(e) => setDate(e.target.value)}
               placeholder="Enter date..."
