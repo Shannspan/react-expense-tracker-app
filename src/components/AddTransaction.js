@@ -25,19 +25,19 @@ export const AddTransaction = () => {
   return (
     <>
       <button>x</button>
-      <h3>Add new transaction</h3>
+      <h3>I spent some money</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="expense">Expense</label>
+          <label htmlFor="expense">I got</label>
           <input
             type="text"
             value={expense}
             onChange={(e) => setExpense(e.target.value)}
-            placeholder="Enter expense name..."
+            placeholder="What I bought..."
           />
         </div>
         <div className="form-control">
-          <label htmlFor="date">Date </label>
+          <label htmlFor="date">On </label>
           <input
             type="date"
             value={date}
@@ -46,21 +46,21 @@ export const AddTransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">Amount </label>
+          <label htmlFor="amount">For </label>
           <input
             type="number"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="Enter amount..."
+            placeholder="How much I spent..."
           />
         </div>
         <div className="form-control">
-          <label htmlFor="notes">Notes</label>
+          <label htmlFor="notes">Because</label>
           <input
             type="text"
             value={notes}
             onChange={(e) => setNotes(e.target.value)}
-            placeholder="Enter notes..."
+            placeholder="Bought for this reason..."
           />
         </div>
         <button className="action">Spend Money</button>

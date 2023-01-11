@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-image: linear-gradient(#DF8B16, #eaddcb);
-  color:  #0D2130;
+  color:  #212230;
 }
 
 .container {
@@ -24,11 +24,12 @@ table {
 }
 
 table tr {
+  color: #FFE099;
   background-color:  #4A6E82;
 }
 
 table tr.table-header {
-  background-color: #eee;
+  background-color:  #FCE3C5;
 }
 
 table th {
@@ -39,7 +40,7 @@ table th {
 
 table td {
   padding: 15px;
-  border-top: 10px solid #eee;
+  border-top: 10px solid #FCE3C5;
 }
 
 .modal-window {
@@ -62,7 +63,7 @@ table td {
   width: 90%;
   padding: 20px;
   border: none;
-  background-color: #eee;
+  background-color:  #FCE3C5;
 }
 
 .modal-content .form-control {
@@ -83,7 +84,7 @@ button.action {
 
 button.update {
   background-color: transparent;
-  color:#0D2130;
+  color:#FFE099;
   border: none;
   text-decoration: underline;
 }
@@ -97,6 +98,7 @@ button.close-modal {
 }
 
 button.submit {
+  color: #FFE099;
   border-radius: 20px;
   padding: 20px;
   background-color: #4A6E82;
@@ -106,7 +108,7 @@ button.submit {
   display: block;
 }
 
-/* colour scheme
+colour scheme
 h1 {
   color: #0D2130
 }
@@ -126,8 +128,8 @@ body {
   background-color: #eaddcb;
 }
 
-/* more possible colours */
-/* h6 {
+more possible colours
+h6 {
   color: #FCE3C5
 }
 h7 {
@@ -141,4 +143,4 @@ h9 {
 }
 h10 {
   color: #212230
-} */ 
+}
