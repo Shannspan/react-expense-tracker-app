@@ -51,7 +51,7 @@ export const AddTransaction = () => {
             type="number"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
-            placeholder="How much I spent..."
+            placeholder="How much it cost..."
           />
         </div>
         <div className="form-control">
@@ -60,7 +60,7 @@ export const AddTransaction = () => {
             type="text"
             value={notes}
             onChange={(e) => setNotes(e.target.value)}
-            placeholder="Bought for this reason..."
+            placeholder="Why I bought it..."
           />
         </div>
         <button className="action">Spend Money</button>
