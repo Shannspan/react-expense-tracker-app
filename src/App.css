@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-image: linear-gradient(#DF8B16, #eaddcb);
-  color:  #212230;
+  color:  #B7A3B8;
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
 
 h1 {
   font-size: 48px;
+  font-style: italic;
 }
 
 table {
