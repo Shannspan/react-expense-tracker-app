@@ -53,7 +53,7 @@ function App() {
               type="text"
               value={expense}
               onChange={(e) => setExpense(e.target.value)}
-              placeholder="Enter expense name..."
+              placeholder="What I bought..."
             />
           </div>
           <div className="form-control">
@@ -73,7 +73,7 @@ function App() {
               type="number"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
-              placeholder="Enter amount..."
+              placeholder="How much it cost..."
             />
           </div>
           <div className="form-control">
@@ -82,7 +82,7 @@ function App() {
               type="text"
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              placeholder="Enter notes..."
+              placeholder="Why I bought it..."
             />
           </div>
           <button className="submit">Spend Money</button>
