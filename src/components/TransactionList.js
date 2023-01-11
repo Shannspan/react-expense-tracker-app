@@ -10,11 +10,11 @@ export const TransactionList = () => {
     <>
       <table>
         <tr className="table-header">
-          <th>I got</th>
+          <th>I GOT</th>
           <th>$'s</th>
-          <th>On</th>
-          <th>Because</th>
-          <th>Remove</th>
+          <th>ON</th>
+          <th>BECAUSE</th>
+          <th>REMOVE</th>
         </tr>
         {transactions.map((transaction) => (
           <Transaction key={transaction._id} transaction={transaction} />
