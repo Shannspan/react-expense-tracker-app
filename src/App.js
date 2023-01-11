@@ -45,7 +45,7 @@ function App() {
         <button onClick={closeModal} className="close-modal">
           x
         </button>
-        <h3>Add new transaction</h3>
+        <h3>I spent some money</h3>
         <form onSubmit={onSubmit}>
           <div className="form-control">
             <label htmlFor="expense">Expense</label>
