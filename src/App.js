@@ -62,9 +62,7 @@ function App() {
             <input
               type="date"
               value={date}
-              onChange={(e) => setDate(e.format(e.target.value))} // another attempt tp change date format -failed at build 
-              // if this does not work try on AddTransaction.js next as unsure where the formatting is coming from. 
-              // format could also be coming from
+              onChange={(e) => setDate(e.target.value)} 
               placeholder="Enter date..."
             />
           </div>
