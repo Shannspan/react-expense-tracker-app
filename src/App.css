@@ -23,9 +23,11 @@ h1 {
 }
 
 h3 {
-  color:#800080;
   font-style: italic;
   font-weight: bold;
+  background: -webkit-radial-gradient(#800080,  #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
@@ -61,7 +63,7 @@ table td {
 }
 .modal-content {
   width: 40%;
-  border: 1px solid #ff4dff;
+  border: none;
   padding: 30px;
   margin-top: 30px;
   background-color:#DF8B16;
@@ -69,7 +71,7 @@ table td {
 }
 .modal-content input,
 .modal-content label {
-  color:  #800080;
+  color:   #ffb3ff;
   font-style: italic;
   font-weight: bold;
   display: block;
