@@ -22,7 +22,8 @@ function App() {
   const AddTransaction = () => {
     const [expense, setExpense] = useState("");
     const [amount, setAmount] = useState(0);
-    const [date, setDate] = useState(0);
+    const [date, setDate] = useState(new Date().toLocaleDateString());
+//next attempt to change date format using localedatestring
     const [notes, setNotes] = useState("");
 
     const { addTransaction } = useContext(GlobalContext);
