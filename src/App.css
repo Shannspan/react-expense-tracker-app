@@ -62,7 +62,8 @@ table td {
 }
 .modal-content input,
 .modal-content label {
-  color: #800080;
+  color:  #ff4dff;
+  font-style: italic, bold;
   display: block;
 }
 .modal-content input {
@@ -82,7 +83,7 @@ button {
 }
 
 button.action {
-  color: #ff4dff;
+  color: #ffb3ff;
   border-radius: 20px;
   padding: 20px;
   background-color: #4A6E82;
@@ -103,11 +104,13 @@ div.button-container {
 
 button.close-modal {
   float: right;
+  color: #800080;
   background-color: #FCE3C5;
+  border: none;
 }
 
 button.submit {
-  color:  #ff4dff;
+  color: #ffb3ff;
   border-radius: 20px;
   padding: 20px;
   background-color: #4A6E82;
