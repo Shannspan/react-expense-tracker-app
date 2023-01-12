@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 
 //Note for future development: Date format preference dd/mm/yyyy
-// unable to achieve at this time
+// unable to achieve at this time (date-fns remains in dependencies)
 // research start point: shadow root 
 // one article found https://www.geeksforgeeks.org/what-is-shadow-root-and-how-to-use-it/
 

@@ -11,7 +11,7 @@ export const TransactionList = () => {
       <table>
         <tr className="table-header">
           <th>I GOT</th>
-          <th>$'s</th>
+          <th>FOR</th>
           <th>ON</th>
           <th>BECAUSE</th>
           <th>REMOVE</th>
