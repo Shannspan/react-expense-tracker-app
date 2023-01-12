@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import "./App.css";
 import { useState, useContext } from "react";
 import { format } from 'date-fns';
+format(new Date(), 'dd/mm/yyyy') // try moving chenge code for date format
 
 function App() {
   Modal.setAppElement(document.getElementsByTagName("container"));
@@ -62,9 +63,9 @@ function App() {
             <input
               type="date"
               value={date}
-              onChange={(e) => setDate(e.format(new Date(), 'dd/mm/yyyy'))} // another attempt tp change date format 
+              onChange={(e) => setDate(e.format(e.target.value))} // another attempt tp change date format -failed at build 
               // if this does not work try on AddTransaction.js next as unsure where the formatting is coming from. 
-              // format could also be coming from browser
+              // format could also be coming from
               placeholder="Enter date..."
             />
           </div>
