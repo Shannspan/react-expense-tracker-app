@@ -1,5 +1,7 @@
 import React, { useState, useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
+import { format } from 'date-fns';
+format(new Date(), 'dd/mm/yyyy') 
 
 export const AddTransaction = () => {
   const [expense, setExpense] = useState("");
