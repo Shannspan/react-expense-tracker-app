@@ -49,7 +49,7 @@ function App() {
         <h3>I spent some money</h3>
         <form onSubmit={onSubmit}>
           <div className="form-control">
-            <label htmlFor="expense">Expense</label>
+            <label htmlFor="expense">I GOT</label>
             <input
               type="text"
               value={expense}
@@ -58,7 +58,7 @@ function App() {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="date">Date </label>
+            <label htmlFor="date">ON </label>
             <input
               type="date"
               value={date}
@@ -67,7 +67,7 @@ function App() {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="amount">Amount </label>
+            <label htmlFor="amount">FOR </label>
             <input
               type="number"
               value={amount}
@@ -76,7 +76,7 @@ function App() {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="notes">Notes</label>
+            <label htmlFor="notes">BECAUSE</label>
             <input
               type="text"
               value={notes}
