@@ -5,10 +5,7 @@ import { GlobalProvider, GlobalContext } from "./context/GlobalState";
 import Modal from "react-modal";
 import "./App.css";
 import { useState, useContext } from "react";
-// import { format } from 'date-fns';
-// format(new Date(), 'dd/mm/yyyy') // try moving chenge code for date format
-// build failed again need to install date-fns - done - interferes with webkit calendar input
-// try AddTransaction.js instead
+
 
 function App() {
   Modal.setAppElement(document.getElementsByTagName("container"));
