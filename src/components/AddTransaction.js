@@ -30,7 +30,7 @@ export const AddTransaction = () => {
   return (
     <>
       <button>x</button>
-      <h3>I spent some money</h3>
+      <h3>About the money I spent</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label htmlFor="expense">I got</label>
