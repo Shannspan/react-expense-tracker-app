@@ -5,6 +5,7 @@ import { GlobalProvider, GlobalContext } from "./context/GlobalState";
 import Modal from "react-modal";
 import "./App.css";
 import { useState, useContext } from "react";
+import { format } from 'date-fns';
 
 function App() {
   Modal.setAppElement(document.getElementsByTagName("container"));
@@ -60,10 +61,10 @@ function App() {
             <label htmlFor="date">Date </label>
             <input
               type="date"
-              options={{ format: 'DD/MM/YYYY' }} // attempt to change format on FE primary page is inverting
-              // more work needed this does not work 
               value={date}
-              onChange={(e) => setDate(e.target.value)}
+              onChange={(e) => setDate(e.format(new Date(), 'dd/mm/yyyy'))} // another attempt tp change date format 
+              // if this does not work try on AddTransaction.js next as unsure where the formatting is coming from. 
+              // format could also be coming from browser
               placeholder="Enter date..."
             />
           </div>
