@@ -9,7 +9,11 @@ import { GlobalContext } from "../context/GlobalState";
 export const AddTransaction = () => {
   const [expense, setExpense] = useState("");
   const [amount, setAmount] = useState(0);
-  const [date, setDate] = useState(0);
+  const [date, setDate] = useState(new Date().toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  }));
   const [notes, setNotes] = useState("");
 
   const { addTransaction } = useContext(GlobalContext);
