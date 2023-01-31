@@ -11,7 +11,6 @@ body {
 .container {
   margin: 30px auto;
   display: flex;
-  background-image: url("./context/images/coin-background.jpg");
 }
 
 h1 {
