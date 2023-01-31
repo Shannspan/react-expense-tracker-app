@@ -6,12 +6,12 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-image: linear-gradient(#DF8B16, #eaddcb);
-  
 }
 
 .container {
   margin: 30px auto;
   display: flex;
+  background-image: url("./context/images/coin-background.jpg");
 }
 
 h1 {
@@ -130,39 +130,4 @@ button.submit {
   display: block;
 }
 
-colour scheme
-h12 {
-  color: #0D2130
-}
-h2 {
-  color: #DF8B16
-}
-h11 {
-  color: #4A6E82
-}
-h4 {
-  color: #EF5C57
-}
-h5 {
-  color: #C71A28
-}
-body {
-  background-color: #eaddcb;
-}
 
-more possible colours
-h6 {
-  color: #FCE3C5
-}
-h7 {
-  color: #55828B
-}
-h8 {
-  color: #FFE099
-}
-h9 {
-  color: #B7A3B8
-}
-h10 {
-  color: #212230
-}
