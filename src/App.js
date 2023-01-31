@@ -67,7 +67,7 @@ function App() {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="amount">FOR </label>
+            <label htmlFor="amount">FOR $</label>
             <input
               type="number"
               value={amount}
