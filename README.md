@@ -3,6 +3,7 @@ This React JS client side app was supplied ready made to support the Node JS ser
 *   I have changed wording and CSS to include my own style
 
 *   The date formatting is not Australia specific and I would like to change it in future 
+
         *   Not yet able to find the correct source of the date format 
         *   Continued research is need
         *   Research start point: shadow root
